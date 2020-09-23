@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj": {}
+    "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task2\\Task2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj": {
+    "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task2\\Task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj",
-        "projectName": "Task1",
-        "projectPath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj",
+        "projectUniqueName": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task2\\Task2.csproj",
+        "projectName": "Task2",
+        "projectPath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task2\\Task2.csproj",
         "packagesPath": "C:\\Users\\user-pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\obj\\",
+        "outputPath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -39,7 +39,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -50,24 +50,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.3, 3.0.3]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
