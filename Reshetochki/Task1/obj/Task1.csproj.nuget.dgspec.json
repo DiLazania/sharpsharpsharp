@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user-pc\\source\\repos\\dotnet_projects\\sharpsharpsharp\\Reshetochki\\Task1\\Task1.csproj": {}
+    "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user-pc\\source\\repos\\dotnet_projects\\sharpsharpsharp\\Reshetochki\\Task1\\Task1.csproj": {
+    "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user-pc\\source\\repos\\dotnet_projects\\sharpsharpsharp\\Reshetochki\\Task1\\Task1.csproj",
+        "projectUniqueName": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj",
         "projectName": "Task1",
-        "projectPath": "C:\\Users\\user-pc\\source\\repos\\dotnet_projects\\sharpsharpsharp\\Reshetochki\\Task1\\Task1.csproj",
+        "projectPath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj",
         "packagesPath": "C:\\Users\\user-pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user-pc\\source\\repos\\dotnet_projects\\sharpsharpsharp\\Reshetochki\\Task1\\obj\\",
+        "outputPath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i/M+rrVsnihTPVgvIM5bFG/8JQ6uWlAOWDVRz+z92IdUHmAdc1kzRNhXUnEFjNrIZDxIdbITtxobxAfJOqVmSw==",
+  "dgSpecHash": "vCWn81tSDKJb57V8SgHsmNDF2drdKpMjDA4HUndx2YcOzK7YC5Wxbyy0AyhmMYKfaKIYLo8ksYephchbcUZSPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user-pc\\source\\repos\\dotnet_projects\\sharpsharpsharp\\Reshetochki\\Task1\\Task1.csproj",
+  "projectFilePath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user-pc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
     "C:\\Users\\user-pc\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
