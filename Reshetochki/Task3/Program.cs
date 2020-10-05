@@ -11,6 +11,26 @@ namespace Task3
         private static SafeClass<char> _chrSafe;
         private static SafeClass<bool> _blSafe;
 
+        static void Duck()
+        {
+            Duck duck = new Duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+            duck.random_duck();
+        }
 
         static void ClassObjectsCounter()
         {
@@ -70,71 +90,71 @@ namespace Task3
                 {
 
                     case 1:
-                        Console.WriteLine("1.INT.\n 2.BOOL.\n3.CHAR.\n4.STRING.\n5.DOUBLE");
-                        var create = int.Parse(Console.ReadLine() ?? string.Empty);
+                       Console.WriteLine("1.INT.\n 2.BOOL.\n3.CHAR.\n4.STRING.\n5.DOUBLE");
+                       var create = int.Parse(Console.ReadLine() ?? string.Empty);
 
-                        switch (create)
-                        {
-                            case 1:
-                                Console.WriteLine("Random value assigned");
-                                _intSafe = new SafeClass<int>(new Random().Next());
-                                break;
-                            case 2:
-                                Console.WriteLine("Enter true or false");
-                                _blSafe = new SafeClass<bool>(bool.Parse(Console.ReadLine()));
-                                break;
-                            case 3:
-                                Console.WriteLine("Enter char");
-                                _chrSafe = new SafeClass<char>(Console.ReadLine().First(x => x is char));
-                                break;
-                            case 4:
-                                Console.WriteLine("Enter string");
-                                _strSafe = new SafeClass<string>(Console.ReadLine());
-                                break;
-                            case 5:
-                                _dblSafe = new SafeClass<double>(new Random().NextDouble());
-                                break;
+                       switch (create)
+                       {
+                           case 1:
+                               Console.WriteLine("Random value assigned");
+                               _intSafe = new SafeClass<int>(new Random().Next());
+                               break;
+                           case 2:
+                               Console.WriteLine("Enter true or false");
+                               _blSafe = new SafeClass<bool>(bool.Parse(Console.ReadLine()));
+                               break;
+                           case 3:
+                               Console.WriteLine("Enter char");
+                               _chrSafe = new SafeClass<char>(Console.ReadLine().First(x => x is char));
+                               break;
+                           case 4:
+                               Console.WriteLine("Enter string");
+                               _strSafe = new SafeClass<string>(Console.ReadLine());
+                               break;
+                           case 5:
+                               _dblSafe = new SafeClass<double>(new Random().NextDouble());
+                               break;
 
-                        }
+                       }
 
-                        break;
+                       break;
                     case 2:
-                        try
-                        {
-                            Console.WriteLine("CHOOSE OUTPUT:\n\n 1.INT.\n 2.BOOL.\n3.CHAR.\n4.STRING.\n5.DOUBLE");
-                            var s1 = int.Parse(Console.ReadLine() ?? string.Empty);
-                            switch (s1)
-                            {
-                                case 1:
-                                    Console.WriteLine($"{_intSafe.GetValue()}");
+                       try
+                       {
+                           Console.WriteLine("CHOOSE OUTPUT:\n\n 1.INT.\n 2.BOOL.\n3.CHAR.\n4.STRING.\n5.DOUBLE");
+                           var s1 = int.Parse(Console.ReadLine() ?? string.Empty);
+                           switch (s1)
+                           {
+                               case 1:
+                                   Console.WriteLine($"{_intSafe.GetValue()}");
 
-                                    break;
-                                case 2:
-                                    Console.WriteLine($"{_blSafe.GetValue()}");
+                                   break;
+                               case 2:
+                                   Console.WriteLine($"{_blSafe.GetValue()}");
 
-                                    break;
-                                case 3:
-                                    Console.WriteLine($"{_chrSafe.GetValue()}");
+                                   break;
+                               case 3:
+                                   Console.WriteLine($"{_chrSafe.GetValue()}");
 
-                                    break;
-                                case 4:
-                                    Console.WriteLine($"{_strSafe.GetValue()}");
+                                   break;
+                               case 4:
+                                   Console.WriteLine($"{_strSafe.GetValue()}");
 
-                                    break;
-                                case 5:
-                                    Console.WriteLine($"{_dblSafe.GetValue()}");
-                                    break;
+                                   break;
+                               case 5:
+                                   Console.WriteLine($"{_dblSafe.GetValue()}");
+                                   break;
 
-                            }
-                        }
-                        catch (NullReferenceException ex)
-                        {
-                            Console.WriteLine("YOu must create safe before reading it!!!!!!");
-                            Console.WriteLine(ex.ToString());
+                           }
+                       }
+                       catch (NullReferenceException ex)
+                       {
+                           Console.WriteLine("YOu must create safe before reading it!!!!!!");
+                           Console.WriteLine(ex.ToString());
 
-                        }
+                       }
 
-                        break;
+                       break;
                 }
 
             } while (true);
@@ -158,7 +178,7 @@ namespace Task3
                         SafeClass();
                         break;
                     case 3:
-                        
+                        Duck();
                         break;
 
                 }
