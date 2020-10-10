@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user-pc\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\serge\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj",
+      "projectUniqueName": "f:\\dev\\c#\\BOYS\\sharpsharpsharp\\Reshetochki\\Task1\\Task1.csproj",
       "projectName": "Task1",
-      "projectPath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj",
-      "packagesPath": "C:\\Users\\user-pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\obj\\",
+      "projectPath": "f:\\dev\\c#\\BOYS\\sharpsharpsharp\\Reshetochki\\Task1\\Task1.csproj",
+      "packagesPath": "C:\\Users\\serge\\.nuget\\packages\\",
+      "outputPath": "f:\\dev\\c#\\BOYS\\sharpsharpsharp\\Reshetochki\\Task1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\user-pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\serge\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "F:\\dev\\c#\\seissow\\Src\\ExternalDependencies\\Telerik.AspNet.Core": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -80,7 +77,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

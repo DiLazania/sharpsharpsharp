@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vCWn81tSDKJb57V8SgHsmNDF2drdKpMjDA4HUndx2YcOzK7YC5Wxbyy0AyhmMYKfaKIYLo8ksYephchbcUZSPw==",
+  "dgSpecHash": "BAX3YHGk7QV7E/w60JkmKeuMoo42vY8S7O2zYDrcAQNgc6FdadccQWG5TU79WIF9Vgs8NJENSEz+RBzO5igQVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user-pc\\Desktop\\sharpsharpsharp1\\Reshetochki\\Task1\\Task1.csproj",
+  "projectFilePath": "f:\\dev\\c#\\BOYS\\sharpsharpsharp\\Reshetochki\\Task1\\Task1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user-pc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "C:\\Users\\user-pc\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\user-pc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
-    "C:\\Users\\user-pc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\serge\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }
