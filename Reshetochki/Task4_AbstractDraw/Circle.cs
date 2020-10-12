@@ -11,7 +11,7 @@ namespace Task4_AbstractDraw
     class Circle : Figure
     {
         private int _radius;
-        private Brush _borderBrush;
+        private readonly Brush _borderBrush;
 
         public Circle()
         {

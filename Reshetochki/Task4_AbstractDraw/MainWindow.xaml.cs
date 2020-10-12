@@ -40,7 +40,11 @@ namespace Task4_AbstractDraw
                     break;
                 case 2:
                     _fig = new Circle();
-                    gen.Content = "Generated;";
+                    gen.Content = "Generated";
+                    break;
+                case 3:
+                    _fig = new Triangle();
+                    gen.Content = "Generated";
                     break;
             }
         }
@@ -55,6 +59,7 @@ namespace Task4_AbstractDraw
         {
             _fig = null;
             canv.Children.Clear();
+            gen.Content = string.Empty;
         }
     }
 }
