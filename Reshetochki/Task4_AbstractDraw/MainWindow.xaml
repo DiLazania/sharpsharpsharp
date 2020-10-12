@@ -14,8 +14,8 @@
             <ColumnDefinition Width="41*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Button x:Name="GenerateBtn" Click="GenerateBtn_Click" Grid.Column="0" Margin="22,40,22,597" Opacity="10" BorderThickness="5" Foreground="Cyan" Background="DimGray" Content="Generate" FontSize="30" BorderBrush="OrangeRed" FontFamily="Arial Black"/>
-        <Button x:Name="DrawBtn" Click="DrawBtn_Click" Grid.Column="0" Margin="22,313,22,333" Opacity="10" Background="DimGray" BorderBrush="GreenYellow" BorderThickness="5" Content="Draw" Foreground="SpringGreen" FontSize="30" FontFamily="Arial Black"/>
-        <Button x:Name="ResetCanvasBtn" Grid.Column="0" Margin="22,558,22,88" Opacity="10" Background="DimGray" BorderBrush="Yellow" BorderThickness="5" Content="Reset" Foreground="Yellow" FontSize="30" FontFamily="Arial Black" />
+        <Button x:Name="DrawBtn" Click="DrawBtn_Click" Grid.Column="0" Margin="22,313,22,311" Opacity="10" Background="DimGray" BorderBrush="GreenYellow" BorderThickness="5" Content="Draw" Foreground="SpringGreen" FontSize="30" FontFamily="Arial Black"/>
+        <Button x:Name="ResetCanvasBtn" Grid.Column="0" Margin="22,558,22,72" Opacity="10" Background="DimGray" BorderBrush="Yellow" BorderThickness="5" Content="Reset" Foreground="Yellow" FontSize="30" FontFamily="Arial Black" Click="ResetCanvasBtn_Click" />
         <GridSplitter Grid.Column="1" Width="10" ></GridSplitter>
         <Canvas x:Name="canv" Grid.Column="2" Background="Black" Width="auto"></Canvas>
         <Label x:Name="gen"  Grid.Column="0" Content="" HorizontalAlignment="Center" FontFamily="Arial Black" FontSize="30" Foreground="AliceBlue" Margin="0,176,0,0" VerticalAlignment="Top" Height="56" Width="182"/>

@@ -5,7 +5,7 @@ using System.Windows.Controls;
 
 namespace Task4_AbstractDraw
 {
-    abstract class Figure
+    internal abstract class Figure
     {
         public abstract void Draw(Canvas canvas);
     }

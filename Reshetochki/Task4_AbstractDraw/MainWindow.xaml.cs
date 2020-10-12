@@ -22,7 +22,7 @@ namespace Task4_AbstractDraw
     public partial class MainWindow : Window
     {
 
-        private Figure fig;
+        private Figure _fig;
         public MainWindow()
         {
             InitializeComponent();
@@ -34,16 +34,27 @@ namespace Task4_AbstractDraw
             var rn = new Random();
             switch (rn.Next(1, 4))
             {
-                case 1: 
-                    fig = new Rect();
+                case 1:
+                    _fig = new Rect();
                     gen.Content = "Generated";
+                    break;
+                case 2:
+                    _fig = new Circle();
+                    gen.Content = "Generated;";
                     break;
             }
         }
         
         private void DrawBtn_Click(object sender, RoutedEventArgs e)
         {
-            fig.Draw(canv);
+            
+            _fig?.Draw(canv);
+        }
+
+        private void ResetCanvasBtn_Click(object sender, RoutedEventArgs e)
+        {
+            _fig = null;
+            canv.Children.Clear();
         }
     }
 }
