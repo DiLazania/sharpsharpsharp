@@ -17,6 +17,7 @@ namespace Task6
         {
             Console.InputEncoding = Encoding.ASCII;
             var hitlerBirth = new DateTime(1889, 4, 20, 18, 30, 57,324);
+            var hitlerDeath = new DateTime(1945,04,30,15,15,30,245);
             while (true)
             {
                 try
@@ -28,7 +29,8 @@ namespace Task6
                     Console.WriteLine(
                         $"\nFrom Hitler's birth:\n {difference.Year - 1} Years\n {difference.Month - 1} Months\n" +
                         $" {difference.Day - 1} Days\n {difference.Hour} Hours\n {difference.Minute} Minutes\n {difference.Second} " +
-                        $"Seconds\n {difference.Millisecond} Milliseconds\n {difference.Ticks} Ticks.");
+                        $"Seconds\n {difference.Millisecond} Milliseconds\n {difference.Ticks} Ticks.\n");
+                    Console.WriteLine(targetTime > hitlerDeath ? "Hitler is dead" : "Hitler is alive.");
                     break;
                 }
                 catch (FormatException ex)
