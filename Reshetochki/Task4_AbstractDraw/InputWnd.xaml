@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task4_AbstractDraw"
         mc:Ignorable="d"
-        Title="InputWnd" Height="450" Width="800">
+        Title="InputWnd" Height="300" Width="300" Background="DimGray">
     <Grid>
-        
+        <TabControl>
+            <TabItem Header="Triangle">
+                <StackPanel Orientation="Horizontal" Width="167" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,10">
+                    <StackPanel Orientation="Vertical" Margin="5" Width="30">
+                        <Label Margin="3" Content="A:" FontSize="10" Height="24" Width="22" ></Label>
+                        <Label Margin="3" Content="B:" FontSize="10" Height="24" Width="22" ></Label>
+                        <Label Margin="3" Content="C:" FontSize="10" Height="24"  Width="22"></Label>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Width="100" Margin="5">
+                        <TextBox x:Name="SideA_Box" Margin="6"/>
+                        <TextBox x:Name="SideB_Box" Margin="6"/>
+                        <TextBox x:Name="SideC_BOx" Margin="6"/>
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Circle">
+                <StackPanel Orientation="Horizontal" Width="150" Height="45" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <Label Width="45" Content="Radius:" Height="24" FontSize="10" Margin="5"/>
+                    <TextBox x:Name="RadiusSetter" Margin="10" Width="80"></TextBox>
+                </StackPanel>
+
+            </TabItem>
+            <TabItem Header="Rectangle">
+                <StackPanel Orientation="Horizontal" Width="27" Height="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,10">
+                    <StackPanel Orientation="Vertical" Margin="5" Width="100">
+                        <Label Margin="3" Content="Width:" FontSize="10" Height="24" Width="22" ></Label>
+                        <Label Margin="3" Content="Height:" FontSize="10" Height="24" Width="22" ></Label>
+
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Width="100" Margin="5">
+                        <TextBox x:Name="Width_Box" Margin="6"/>
+                        <TextBox x:Name="Height_Box"/>
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>
