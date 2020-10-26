@@ -7,7 +7,7 @@ namespace Task5
     {
         static void Main(string[] args)
         {
-            SwitchLib.FunctionDelegat function1, function2, function3;
+            SwitchLib.FunctionDelegate function1, function2, function3;
             function1 = Library;
             function3 = Task3; //!!! <- delete comment after corecting
             SwitchLib f = new SwitchLib();

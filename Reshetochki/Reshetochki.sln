@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task4", "Task4\Task4.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task4_AbstractDraw", "Task4_AbstractDraw\Task4_AbstractDraw.csproj", "{D7BDDBDC-582C-4062-833F-03F65F308CB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5", "Task5\Task5.csproj", "{D2C472C8-0374-489E-9EC1-170BE28A57D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task5", "Task5\Task5.csproj", "{D2C472C8-0374-489E-9EC1-170BE28A57D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchLibrary", "SwitchLibrary\SwitchLibrary.csproj", "{95E2D8D6-EC6C-42EF-8290-6CED804C5533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchLibrary", "SwitchLibrary\SwitchLibrary.csproj", "{95E2D8D6-EC6C-42EF-8290-6CED804C5533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6", "Task6\Task6.csproj", "{6A1B1C78-FF09-46B2-8B12-2882F5188845}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{95E2D8D6-EC6C-42EF-8290-6CED804C5533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95E2D8D6-EC6C-42EF-8290-6CED804C5533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95E2D8D6-EC6C-42EF-8290-6CED804C5533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1B1C78-FF09-46B2-8B12-2882F5188845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1B1C78-FF09-46B2-8B12-2882F5188845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1B1C78-FF09-46B2-8B12-2882F5188845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1B1C78-FF09-46B2-8B12-2882F5188845}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
