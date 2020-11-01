@@ -16,6 +16,5 @@ namespace Task7
             Blue,
             Violet
         }
-
     }
 }

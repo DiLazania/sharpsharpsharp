@@ -9,7 +9,8 @@ namespace Switch_Lib
         public void Switch(params FunctionDelegate[] functions)
         {
             var i = 0;
-            foreach (var func in functions) Console.WriteLine($"Choose function to execute:\n {i++} : {func.GetMethodInfo()?.Name}");
+            Console.WriteLine("Choose function to execute:\n ");
+            foreach (var func in functions) Console.WriteLine($"{i++} : {func.GetMethodInfo()?.Name}");
             functions[int.Parse(Console.ReadLine()!)].Invoke();
         }
     }

@@ -1,25 +1,31 @@
 ﻿using System;
-using System.Drawing;
 using Switch_Lib;
+
 namespace Task7
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("Hello World!");
             var menu = new SwitchLib();
-            menu.Switch(EnumerateRainbow);
+            menu.Switch(EnumerateRainbow, LazyGayInitialization);
         }
 
 
         public static void EnumerateRainbow()
         {
-            var textColor = System.ConsoleColor.Red;
             foreach (var color in Enum.GetValues(typeof(Rainbow.RainbowColors)))
-            {
                 Console.WriteLine(Enum.GetName(typeof(Rainbow.RainbowColors), color));
-                Console.ForegroundColor = textColor++;
+        }
+
+        public static void LazyGayInitialization()
+        {
+            while (true)
+            {
+                Console.Write("Enter country, or 1 to exit:");
+                var country = Console.ReadLine();
+                if (country == "1") break;
+                _ = new RainbowCountry(country);
             }
         }
     }
